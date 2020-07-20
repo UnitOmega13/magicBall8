@@ -29,9 +29,9 @@ public class magicBall8 implements EntryPoint {
         start.addStyleName("newOne");
         textArea.setSize("600", "50");
         statistic.setSize("600", "250");
-        statistic.setText("Всего попыток: " + count + "\n" + "положительных ответов: " + positive + "\n"
-                + "почти положительных ответов: " + almostPositive + "\n" + "нейтральных ответов: " + neutral + "\n"
-                + "отрицательных ответов: " + negative);
+        statistic.setText("Total attempts: " + count + "\n" + "positive answers: " + positive + "\n"
+                + "almost positive answers: " + almostPositive + "\n" + "neutral answers: " + neutral + "\n"
+                + "negative answers: " + negative);
         textArea.setStyleName("newOne");
         newTry.addClickHandler(event -> {
             int value = (Random.nextInt(2000) + 1) / 100;
